@@ -1,0 +1,33 @@
+.search {
+    position: absolute;
+    top: 35px;
+    left: 2%;
+    width: 300vw;
+}
+
+.search h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 559px;
+    padding: 10px;
+    background-color: white;
+}
+
+.search>input {
+    border: none;
+    padding: 10px;
+    width: 559px;
+    position: absolute;
+}
+
+.search>button {
+    font-size: 20;
+    font-weight: 700;
+    color: white;
+    width: 580px;
+    text-align: center;
+    background-color: #ff595f;
+    margin-top: 35px;
+    text-transform: inherit;
+}
