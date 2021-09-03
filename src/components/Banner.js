@@ -16,7 +16,7 @@ const Banner = () => {
             <div className="banner__info">
                 <h1>Get out and Stretch your imagination!</h1>
                 <h5>Plan a different kind of getway to uncover the hidden gems near you.</h5>
-                <Button variant="outlined" className="banner_button"><a href="#">Explore nearby</a></Button>
+                <Button variant="outlined" className="banner_button" ><a href="/search">Explore nearby</a></Button>
             </div>
         </div>
     );

@@ -2,6 +2,7 @@ import './App.css';
 import Home from './Home'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import SearchPage from './SearchPage'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 function App() {
@@ -9,23 +10,35 @@ function App() {
     <div className="App">
       <Router>
         <Header />
-        <Home />
+
+        <Switch>
+
+          <Route path="/search">
+            <SearchPage />
+          </Route>
+
+          <Route path="/">
+            <Home />
+          </Route>
+
+        </Switch>
+
         <Footer />
       </Router>
 
       {/* Home */}
-      //{/* Header */}
+      {/* Header */}
 
-      //{/* Banner */}
-        //{/*Search*/}
+      {/* Banner */}
+      {/*Search*/}
 
-      //{/* Cards */}
+      {/* Cards */}
 
-      //{/* Footer */}
+      {/* Footer */}
 
       {/* SearchPage */}
-      //{/* Header */}
-      //{/*...*/}
+      {/* Header */}
+      {/*...*/}
     </div>
   );
 }
